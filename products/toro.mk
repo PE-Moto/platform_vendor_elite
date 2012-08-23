@@ -34,9 +34,3 @@ PRODUCT_COPY_FILES +=  \
 
 # Inherit speech recognition blobs
 -include vendor/elite/config/common_speech_recognition.mk
-
-# Inherit Theme chooser apps and libs
--include vendor/tmobile/apps/ThemeChooser/Android.mk
--include vendor/tmobile/libs/com.tmobile.themes/Android.mk
--include vendor/tmobile/products/themes/AndroidProducts.mk
--include vendor/tmobile/providers/ThemeManager/Android.mk
