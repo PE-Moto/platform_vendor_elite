@@ -1,3 +1,5 @@
+$(call inherit-product, vendor/elite/config/themes_common.mk)
+
 # Generic product
 PRODUCT_NAME := elite
 PRODUCT_BRAND := elite
